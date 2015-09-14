@@ -1,4 +1,4 @@
-(function ($) {
+//(function ($) {
 
     var Book = Backbone.Model.extend({
         defaults:{
@@ -34,4 +34,4 @@
     });
 
     $("#books").html(bookView.render().el);
-})(jQuery);
+//})(jQuery);
